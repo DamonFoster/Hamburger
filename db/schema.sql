@@ -1,0 +1,8 @@
+-- Write SQL queries this file that do the following:
+-- 1. Create the burgers_db.
+-- 2. Switch to or use the burgers_db.
+-- 3. Create a burgers table with these fields:
+-- 4. id: an auto incrementing int that serves as the primary key.
+-- 5. burger_name: a string.
+-- 6. devoured: a boolean.
+-- 7. date: a TIMESTAMP.
