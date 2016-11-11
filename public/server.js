@@ -1,26 +1,21 @@
 // Your app will store every burger in a database, whether devoured or not.
+// -1. npm install express express-handlebars method-override body-parser mysql --save.
+// -2. Require express, method-override, body-parser
+// -3. see: db/schema.sql
+// -4. see /db/seeds.sql
+// -5. Run the schema.sql and seeds.sql files into the mysql server from the command line
+// -6. Make sure you're in the db folder of your app.
+// -7. Start MySQL command line tool and login: mysql -u root -p.
+// -8. With the mysql> command line tool running, enter the command source schema.sql. 
+// -9. Run the file: source seeds.sql.
+// -10. Close out of the MySQL command line tool: exit.
 
-// 1. npm install express express-handlebars method-override body-parser mysql --save.
-// 2. Require express, method-override, body-parser
-// 3. see: db/schema.sql
-// 4. see /db/seeds.sql
-// 5. Run the schema.sql and seeds.sql files into the mysql server from the command line
-// 6. Make sure you're in the db folder of your app.
-// 7. Start MySQL command line tool and login: mysql -u root -p.
-// 8. With the mysql> command line tool running, enter the command source schema.sql. 
-// 9. Run the file: source seeds.sql.
-// 10. Close out of the MySQL command line tool: exit.
+var express = require('express');
+var method-override = require('method-override');
+var body-parser = require('body-parser');
 
 // Config Setup:
-// 11. config/connection.js file, setup the code to connect Node to MySQL.
-// 12. Export the connection.
-// 13. Import (require) connection.js into orm.js
-// 14. In the orm.js file, create the methods that will execute the necessary MySQL commands in the controllers. 
-	// These are the methods you will need to use in order to retrieve and store data in your database.
-	// selectAll()
-	// insertOne()
-	// updateOne()
-	// Export the ORM object in module.exports.
+// 11. see connections.js
 
 
 // Model setup:
