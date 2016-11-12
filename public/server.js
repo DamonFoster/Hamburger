@@ -19,9 +19,7 @@ var body-parser = require('body-parser');
 
 
 // Model setup:
-// 15. models/burger.js, import orm.js into burger.js
-// 16. Also inside burger.js, create the code that will call the ORM functions using burger specific input for the ORM.
-// 17. Export at the end of the burger.js file.
+// See burger.js
 
 // Controller setup:
 // 18.  /burgers_controller.js file, import the following:
